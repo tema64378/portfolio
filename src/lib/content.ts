@@ -147,56 +147,6 @@ export const projects: Project[] = [
 
   /* ---------------- screens / UI ---------------- */
   {
-    slug: "konkurs",
-    year: "2025",
-    kind: "design",
-    cover: "/works/konkurs-cover.webp",
-    gallery: [
-      "/works/konkurs-1.webp",
-      "/works/konkurs-2.webp",
-      "/works/konkurs-3.webp",
-      "/works/konkurs-4.webp",
-      "/works/konkurs-5.webp",
-    ],
-    filters: ["screens", "graphic"],
-    ru: {
-      title: "ПРАVДА",
-      category: "Экраны конкурса",
-      place: "Всероссийский конкурс трудовых отрядов",
-      description:
-        "Система сценических экранов для конкурса «Трудкрут»: 3D-объекты в кислотной палитре, крупная типографика этапов — жеребьёвка, интеллектуальный, практический, проектная деятельность. Единый ритм на весь ивент.",
-    },
-    en: {
-      title: "PRAVDA",
-      category: "Stage screens",
-      place: "National teen-squads contest",
-      description:
-        "A set of stage screens for the “Trudkrut” contest: 3D objects in an acid palette and bold stage typography — draw, intellectual, practical and project rounds. One rhythm across the whole event.",
-    },
-  },
-  {
-    slug: "conference",
-    year: "2025",
-    kind: "design",
-    cover: "/works/conf-cover.webp",
-    gallery: ["/works/conf-1.webp", "/works/conf-2.webp", "/works/conf-3.webp"],
-    filters: ["screens", "graphic"],
-    ru: {
-      title: "Вселенная топовых решений",
-      category: "Экраны конференции",
-      place: "РСО 20:65 · конференция подростков",
-      description:
-        "Оформление экранов конференции подростков: тёмная сцена, объёмные знаки-соты и заголовки мастер-классов. Гибкие шаблоны, в которые редактор подставляет имя эксперта и тему.",
-    },
-    en: {
-      title: "Universe of Top Ideas",
-      category: "Conference screens",
-      place: "RSO 20:65 · teen conference",
-      description:
-        "Screen design for a teen conference: a dark stage, dimensional hex marks and master-class titles. Flexible templates where an editor drops in the expert's name and topic.",
-    },
-  },
-  {
     slug: "fieldmind",
     year: "2026",
     kind: "dev",
@@ -249,51 +199,6 @@ export const projects: Project[] = [
         "Visuals for the national student-squads gathering in Krasnoyarsk: the community cover and the event's branded surfaces, plus a poster series by track — sports, mas-wrestling & GTO, music, design, dance — with results by district. One blue system and the “trudkrut — here and now” lettering.",
     },
   },
-  {
-    slug: "wayfinding",
-    year: "2025",
-    kind: "design",
-    cover: "/works/nav-cover.webp",
-    gallery: ["/works/nav-1.webp", "/works/nav-2.webp", "/works/nav-3.webp", "/works/nav-4.webp"],
-    filters: ["graphic"],
-    ru: {
-      title: "Деловая программа",
-      category: "Навигация · вайфайндинг",
-      place: "Деловая программа события",
-      description:
-        "Навигационные карточки деловой программы: жёлтая типографика на чёрном, крупные номера залов и таймслоты. Понятная система, которую видно с любой точки зала.",
-    },
-    en: {
-      title: "Business Programme",
-      category: "Wayfinding",
-      place: "Event business programme",
-      description:
-        "Wayfinding cards for an event's business programme: yellow type on black, big hall numbers and time slots. A clear system readable from anywhere in the room.",
-    },
-  },
-  {
-    slug: "donor",
-    year: "2025",
-    kind: "design",
-    cover: "/works/donor-cover.webp",
-    gallery: ["/works/donor-1.webp", "/works/donor-2.webp", "/works/donor-3.webp"],
-    filters: ["graphic", "social"],
-    ru: {
-      title: "РСО помогает",
-      category: "Социальная кампания",
-      place: "Всероссийская донорская акция",
-      description:
-        "Кампания о донорстве костного мозга: серия плакатов, где инфографика вероятностей и личная история встречаются с крупной типографикой на ультрамарине — чтобы сложное решение стало понятным и человечным.",
-    },
-    en: {
-      title: "RSO Helps",
-      category: "Social campaign",
-      place: "National donor drive",
-      description:
-        "A bone-marrow donation campaign: a poster series where probability infographics and a personal story meet bold typography on ultramarine — turning a hard decision into something clear and human.",
-    },
-  },
-
   /* ---------------- dev: more ---------------- */
   {
     slug: "trudkrut-site",
