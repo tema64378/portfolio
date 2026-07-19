@@ -115,6 +115,28 @@ export const projects: Project[] = [
     },
   },
   {
+    slug: "taskflow",
+    year: "2026",
+    kind: "dev",
+    stack: ["React", "TypeScript", "Tailwind"],
+    links: { live: "https://taskflow-xi-vert.vercel.app", github: `${GH}/taskflow` },
+    filters: ["dev"],
+    ru: {
+      title: "TaskFlow",
+      category: "Канбан-доска",
+      place: "Веб-разработка · интерфейс",
+      description:
+        "Канбан-доска с drag & drop: перетаскивание карточек между колонками, приоритеты и теги, инлайн-редактирование колонок, тёмная тема и сохранение в localStorage. Клавиатурная доступность на @dnd-kit.",
+    },
+    en: {
+      title: "TaskFlow",
+      category: "Kanban board",
+      place: "Web development · interface",
+      description:
+        "A kanban board with drag & drop: move cards across columns, priorities and tags, inline column editing, a dark theme and localStorage persistence. Keyboard-accessible via @dnd-kit.",
+    },
+  },
+  {
     slug: "alabuga",
     year: "2025",
     kind: "design",
