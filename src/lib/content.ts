@@ -23,7 +23,7 @@ export type Project = {
   en: Localized;
 };
 
-const GH = "https://github.com/tema64378";
+const GH = "https://github.com/ykvlev";
 
 export const projects: Project[] = [
   /* ---------------- flagship brand case ---------------- */
@@ -887,8 +887,8 @@ export const contacts = {
   phoneDisplay: "+7 (911) 609-63-41",
   phoneHref: "tel:+79116096341",
   behance: "https://www.behance.net/4b3f758e",
-  github: "https://github.com/tema64378",
-  githubHandle: "github/tema64378",
+  github: "https://github.com/ykvlev",
+  githubHandle: "github/ykvlev",
   telegram: "https://t.me/ykvlev_a",
   telegramHandle: "@ykvlev_a",
   site: "https://трудкрут.com",

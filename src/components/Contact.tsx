@@ -13,7 +13,7 @@ export default function Contact() {
 
   const channels = [
     { label: "Behance", value: "behance.net", href: contacts.behance },
-    { label: "GitHub", value: "tema64378", href: contacts.github },
+    { label: "GitHub", value: "ykvlev", href: contacts.github },
     { label: "Telegram", value: contacts.telegramHandle, href: contacts.telegram },
     { label: lang === "ru" ? "Сайт" : "Website", value: contacts.siteDisplay, href: contacts.site },
   ];
